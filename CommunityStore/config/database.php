@@ -1,9 +1,9 @@
 <?php
 
-$host = "localhost";
-$user = "root";
-$pass = "coco";
-$dbname = "communitystore";
+$host = "HOST_NAME";
+$user = "USER_NAME";
+$pass = "PASSWORD";
+$dbname = "DATABASE_NAME";
 
 $conn = new mysqli($host, $user, $pass, $dbname);
 
