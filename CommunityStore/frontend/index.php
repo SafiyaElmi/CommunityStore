@@ -25,7 +25,7 @@ require __DIR__ . '/../partials/header.php';
 
 <div class="top-bar">
     <div>
-        <h1>Welcome to StudentMarket</h1>
+        <h1>Welcome to Community Store</h1>
         <p class="muted m-0 small">Buy &amp; sell with students on your campus</p>
     </div>
 </div>
