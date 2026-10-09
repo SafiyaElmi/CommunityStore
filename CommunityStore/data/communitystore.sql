@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Host: 127.0.0.1:3306
--- Generation Time: Oct 05, 2026 at 11:08 AM
+-- Generation Time: Oct 09, 2026 at 06:21 PM
 -- Server version: 8.0.46
 -- PHP Version: 8.3.28
 
@@ -304,7 +304,7 @@ CREATE TABLE IF NOT EXISTS `review` (
   PRIMARY KEY (`reviewID`),
   KEY `fk_review_user` (`userID`),
   KEY `fk_review_listing` (`listingID`)
-) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci;
+) ENGINE=InnoDB AUTO_INCREMENT=2 DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci;
 
 -- --------------------------------------------------------
 
@@ -323,7 +323,7 @@ CREATE TABLE IF NOT EXISTS `user` (
   `userType` enum('Student','Vendor','Resident') NOT NULL DEFAULT 'Student',
   PRIMARY KEY (`userID`),
   UNIQUE KEY `email` (`email`)
-) ENGINE=InnoDB AUTO_INCREMENT=4 DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci;
+) ENGINE=InnoDB AUTO_INCREMENT=6 DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci;
 
 --
 -- Dumping data for table `user`
