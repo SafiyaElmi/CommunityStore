@@ -3,7 +3,7 @@
 $host = "HOST_NAME";
 $user = "USER_NAME";
 $pass = "PASSWORD";
-$dbname = "DATABASE_NAME";
+$dbname = "communitystore";
 
 $conn = new mysqli($host, $user, $pass, $dbname);
 
